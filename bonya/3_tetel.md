@@ -1,0 +1,24 @@
+- Visszavezetés:
+    - hetékony visszavezetés
+- Algoritmusok
+  - Hamilton-út
+    - Minden pontot pontosan egysezr érintő csúcs
+  - Párosítás
+    - .
+  - SAT
+    - Konjuktív normálformájú, ítélet-kalkulus beli formulák
+      - Pl: (x1 V x2)  ∧(x3 V x2)  ∧(x1 V x4)
+    - Típusai:
+      - 2SAT
+      - 3SAT
+  - Klikk
+  - Csúcslefedés
+  - Független csúcshelmaz
+- Nemdeterminizmus
+  - Def(adam): végtelen számú párhuzamosítás lehetséges idő romlás nélkül
+- P osztály:
+  - Összes polinom időben eldönthető problémák,
+- NP osztály:
+  - Nemdeterminisztikusan polinom időben eldönthető problémák
+  - Nemdeterminisztikus modon polinom idoben eldol
+
