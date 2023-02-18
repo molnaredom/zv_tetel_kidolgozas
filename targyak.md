@@ -1,31 +1,31 @@
 - Algoritmusok és adatszerkezetek I.
   - Könnyű
 - Bonyolultságelmélet
-    - Könnyű
+  - Közepes
 - Formális nyelvek
   - Nehéz
 - Közelítő és szimbolikus számítások
   - Nehéz
 - Logika és informatikai alkalmazásai
+  - Közepes
 - Mesterséges Intelligencia I.
-    - Könnyű
+  - Könnyű
 - Operációkutatás I
-    - Könnyű
+  - Könnyű
 - Operációs rendszerek
-    - Közepes
+  - Közepes
 - Adatbázisok
--
-    - Közepes
+  - Közepes
 - Digitális képfeldolgozás ???
 - Programozás alapjai
     - Közepes
-- Programozás I és II    
+- Programozás I és II
   - Közepes
 - Programozási nyelvek
-    - Közepes
+  - Közepes
 - Rendszerfejlesztés I.
-    - Könnyű
+  - Könnyű
 - Számítógép-hálózatok
-    - Közepes
+  - Közepes
 - Számítógép architektúra
-    - Nehéz
+  - Nehéz

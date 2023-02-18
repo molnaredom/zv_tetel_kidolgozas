@@ -39,9 +39,9 @@
   - **push**: egy elemet hozzáadunk az eddigiekhez úgy, hogy a verem tetejére tesszük
   - **pop**: az utoljára beszúrt elemet veszi ki a veremből (a tetejéről)
 - Idő:
-  - **Elérési idő: O(1)**, de csak a verem tetején lévő elemet tudjuk elérni
-  - **Beszúrás: O(1)**, mert mindig a tetejére pakolunk
-  - **Törlés: O(1)**, de csak a tetején lévő elemet tudjuk törölni
+  - **Elérési idő: O(1)**, de csak a verem tetején lévő elemet tudjuk elérni **O(n) LRE**
+  - **Beszúrás: O(1)**, mert mindig a tetejére pakolunk 
+  - **Törlés: O(1)**, de csak a tetején lévő elemet tudjuk törölni **O(n) LRE**
 - Pl: 3, 6, 10, 8, 1, 9, 7 számsorozat
   - LIFO: 7, 9, 1, 8, 10, 6, 3
 #### Sor
@@ -64,7 +64,7 @@
 - Idő:
   - **Min: O(1)**
   - **Beszúrás: O(log n)**
-  - **Törlés: O(log n)**
+  - **Törlés: O(log n)** TODO miért logen??
 - Pl: 3, 6, 10, 8, 1, 9, 7 számsorozat
   - rendezés: 1, 3, 6, 7, 8, 9, 10
 
@@ -157,6 +157,8 @@ _Három esetet lehetséges az x csúcs törlésekor:_
   - Sajnos a 3 is foglalt :(, nézzük tovább
     - h(k) = 2 , i=2, N=10, (2 + 2) mod 10 = 4 --> Szintén foglalt
     - h(k) = 2 , i=3, N=10, (2 + 3) mod 10 = 5 --> Nem foglalt ---> betesszük az 5 ös helyre az 52-t
+
+- Négyzetes proba eseten a c1 es c2 elemeket megadjak elore
 
 ## Gráfok és fák számítógépes reprezentációja
 - Fák
